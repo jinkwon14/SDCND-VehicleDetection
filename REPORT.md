@@ -81,7 +81,7 @@ Vehicle detection pipeline successfully detected vehicles appearing in the proje
 
 ### 6. More False Positive Filtration.
 False positives were further filtered out by implementing a queue-like method. I added a cumulative heatmap that added heatmap of consecutive five frames of the video. Output after implementing this can be found from the link below:  
-[Output Video 2](./test_video_output/TestOutput_EnhancedWithAccumHeat.mp4)  
+[Output Video 2](./test_video_output/TestOutput.mp4)  
 
 ### 7. Problems/Issues
 1. Parameters of sliding windows will have to be adjusted according to the characteristic of images/videos. For example, if area of an image where cars appear are larger, the section where sliding window searches will have to be adjusted.
