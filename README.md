@@ -77,7 +77,7 @@ Another parameter that had to be tunes was the heatmap threshold number, which d
 
 ### 5. More False Positive Filtration.
 False positives were further filtered out by implementing a queue-like method. I added a cumulative heatmap that added heatmap of consecutive five frames of the video. Output after implementing this can be found from the link below:  
-[![Output Video]](https://youtu.be/sxL7hRSeHs8)
+[![Output Video(https://youtu.be/sxL7hRSeHs8/0.jpg)]](https://youtu.be/sxL7hRSeHs8)
 
 
 ### 6. Problems/Issues
