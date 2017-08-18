@@ -69,6 +69,7 @@ This resulted in the windows covering the the following areas of an image:
 ### 4. Vehicle detection demonstration and optimization.
 The above parameters performed very well in detecting vehicles both in test images provided by Udacity.
 
+
 The resulting images are shown below:  
 ![before_warp](./report_images/p5_6.png)  
 ![before_warp](./report_images/p5_7.png)  
