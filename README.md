@@ -75,14 +75,10 @@ The resulting images are shown below:
 
 Another parameter that had to be tunes was the heatmap threshold number, which determined the minimal number of overlapping windows to be deemed as a positive detection of a vehicle. In the beginning, setting it to 2 frames caught to many false positives; it detected a grey fence with shadow as a vehicle. After adjusting it to a higher number, the detection pipeline successfully determined vehicles only.
 
-### 5. Implementation to project video.
-Vehicle detection pipeline successfully detected vehicles appearing in the project video. The final output with detection can be found from the below link:  
-[Output Video 1](./test_video_output/TestOutput.mp4)  
-
-### 6. More False Positive Filtration.
+### 5. More False Positive Filtration.
 False positives were further filtered out by implementing a queue-like method. I added a cumulative heatmap that added heatmap of consecutive five frames of the video. Output after implementing this can be found from the link below:  
-[Output Video 2](./test_video_output/TestOutput.mp4)  
+[![Output Video](./TestOutput.mp4)
 
-### 7. Problems/Issues
+### 6. Problems/Issues
 1. Parameters of sliding windows will have to be adjusted according to the characteristic of images/videos. For example, if area of an image where cars appear are larger, the section where sliding window searches will have to be adjusted.
 2. Thresholds of heatmaps and other parameters are unique to the types of images. For example, images of different hues and brightness will have to be processed with different parameters.
