@@ -77,8 +77,7 @@ Another parameter that had to be tunes was the heatmap threshold number, which d
 
 ### 5. More False Positive Filtration.
 False positives were further filtered out by implementing a queue-like method. I added a cumulative heatmap that added heatmap of consecutive five frames of the video. Output after implementing this can be found from the link below:  
-![Output Video](./TestOutput.mp4)
-
+[![Output Video](https://youtu.be/sxL7hRSeHs8)
 ### 6. Problems/Issues
 1. Parameters of sliding windows will have to be adjusted according to the characteristic of images/videos. For example, if area of an image where cars appear are larger, the section where sliding window searches will have to be adjusted.
 2. Thresholds of heatmaps and other parameters are unique to the types of images. For example, images of different hues and brightness will have to be processed with different parameters.
