@@ -63,7 +63,9 @@ In addition to the three sizes, following parameters were implemented to optimiz
     * Large: 680 - 480 px
     * Medium: 630 - 500 px
     * Small: 560 - 500 px  
-This resulted in the windows covering the the following areas of an image:  
+
+
+This resulted in the windows covering the the following areas of an image:   
 ![before_warp](./report_images/p5_5.png  )  
 
 ### 4. Vehicle detection demonstration and optimization.
